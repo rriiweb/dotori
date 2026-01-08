@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOTORI POSTER</title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/5bb0209d91.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="header-top">
+        <div class="inner">
+          <a href="#">고객센터</a>
+          <a href="#">LOGIN</a>
+          <a href="#">JOIN</a>
+        </div>
+      </div>
+      <div class="header-bottom">
+        <div class="inner">
+          <h1>
+            <a href="#">
+              <img src="images/header-logo.svg" alt="로고">
+            </a>
+          </h1>
+          <nav>
+            <ul>
+              <li><a href="#">SHOP</a>
+                <ul>
+                  <li><a href="#">CATEGORY</a></li>
+                  <li><a href="#">BEST</a></li>
+                  <li><a href="#">NEW</a></li>
+                  <li><a href="#">FREE</a></li>
+                  <li><a href="#">EVENT</a></li>
+                </ul>
+              </li>
+              <li><a href="#">AR ROOM</a></li>
+              <li><a href="#">STORY</a></li>
+              <li><a href="#">DOTORI</a></li>
+            </ul>
+          </nav>
+          <div class="select-lan">
+            <span>Korea</span>
+            <ul>
+              <li class="selected">Korea</li>
+              <li>English</li>
+              <li>Japanese</li>
+              <li>Chinese</li>
+              <li>Taiwanese</li>
+              <li>Spanish</li>
+              <li>Russia</li>
+            </ul>
+          </div>
+          <div class="header-icons">
+            <div class="header-icon search">
+              <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 512 512">
+                <path
+                  d="M368 208A160 160 0 1 0 48 208a160 160 0 1 0 320 0zM337.1 371.1C301.7 399.2 256.8 416 208 416C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208c0 48.8-16.8 93.7-44.9 129.1l124 124 17 17L478.1 512l-17-17-124-124z">
+                </path>
+              </svg>
+            </div>
+            <div class="header-icon share">
+              <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 448 512">
+                <path
+                  d="M448 128c0 53-43 96-96 96c-28.9 0-54.8-12.8-72.4-33l-89.7 44.9c1.4 6.5 2.1 13.2 2.1 20.1s-.7 13.6-2.1 20.1L279.6 321c17.6-20.2 43.5-33 72.4-33c53 0 96 43 96 96s-43 96-96 96s-96-43-96-96c0-6.9 .7-13.6 2.1-20.1L168.4 319c-17.6 20.2-43.5 33-72.4 33c-53 0-96-43-96-96s43-96 96-96c28.9 0 54.8 12.8 72.4 33l89.7-44.9c-1.4-6.5-2.1-13.2-2.1-20.1c0-53 43-96 96-96s96 43 96 96zM96 304a48 48 0 1 0 0-96 48 48 0 1 0 0 96zM400 128a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM352 432a48 48 0 1 0 0-96 48 48 0 1 0 0 96z">
+                </path>
+              </svg>
+              <ul>
+                <li><a href="#"><img src="images/header-share-icon-1.svg" alt="공유 아이콘 1"></a></li>
+                <li><a href="#"><img src="images/header-share-icon-2.svg" alt="공유 아이콘 2"></a></li>
+                <li><a href="#"><img src="images/header-share-icon-3.svg" alt="공유 아이콘 3"></a></li>
+                <li><a href="#"><img src="images/header-share-icon-4.svg" alt="공유 아이콘 4"></a></li>
+                <li><a href="#"><img src="images/header-share-icon-5.svg" alt="공유 아이콘 5"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="search-popup">
+        <span class="close-popup"></span>
+        <div>
+          <form action="#" method="post">
+            <input type="text" placeholder="검색어를 입력해주세요.">
+            <a href="#" class="submit">
+              <img src="images/header-search-w.svg" alt="검색 버튼">
+            </a>
+          </form>
+          <ul>
+            <li><a href="#"># 포스터</a></li>
+            <li><a href="#"># 인테리어</a></li>
+            <li><a href="#"># 디지털</a></li>
+            <li><a href="#"># AR ROOM</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="custom-cursor">
+        <span>Drag &amp; Click</span>
+      </div>
+
+      <section class="hero">
+        <div class="inner">
+          <div class="section-title">
+            <h2>
+              <span>AR ROOM</span>
+              <span>유저 가이드 적용해보기</span>
+            </h2>
+            <h2>
+              <span>AR ROOM에서</span>
+              <span>특별한 서비스를 확인해보세요!</span>
+            </h2>
+            <h2>
+              <span>첫 구매 고객 프리미엄</span>
+              <span>DOTORI Kit 증정</span>
+            </h2>
+          </div>
+          <div class="hero-control">
+            <div class="progress">
+              <span class="cur-num hero-num">01</span>
+              <span class="last-num hero-num"></span>
+              <span class="progress-bar">
+                <span></span>
+              </span>
+            </div>
+            <div class="navigation">
+              <i class="fa-solid fa-arrow-left"></i>
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+        <div class="hero-slide">
+          <img src="images/hero-slide1.jpg" alt="슬라이드 이미지 1" />
+          <img src="images/hero-slide2.jpg" alt="슬라이드 이미지 2" />
+          <img src="images/hero-slide3.jpg" alt="슬라이드 이미지 3" />
+        </div>
+      </section>
+
+      <section class="room">
+        <div class="section-title inner">
+          <p>AR ROOM에서 더 많은 공간을 만나보세요.</p>
+          <h2>AR ROOM</h2>
+        </div>
+        <div class="room-section-swiper">
+          <div class="inner">
+            <div class="room-spin">
+              <img src="images/room-circle.svg" alt="도토리포스터">
+            </div>
+            <div class="swiper room-swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide room-slide-1">
+                  <a href="#" class="room-profile">
+                    <div></div>
+                    <p>우키키</p>
+                  </a>
+                  <a href="#" class="room-title">
+                    내 방에 찾아온 따뜻한 베이커리 감성, “Baguette Baguette Baguette”
+                  </a>
+                  <a href="#" class="room-poster"></a>
+                  <a href="#" class="room-mockup">
+                    <div>
+                      <p>
+                        <i class="fa-solid fa-heart"></i>
+                        <span>0</span>
+                      </p>
+                      <p>
+                        <i class="fa-solid fa-message"></i>
+                        <span>0</span>
+                      </p>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide room-slide-2">
+                  <a href="#" class="room-profile">
+                    <div></div>
+                    <p>우키키</p>
+                  </a>
+                  <a href="#" class="room-title">
+                    집 안에 꾸미는 숲 속 캠핑 파티, Charile & Jonny
+                  </a>
+                  <a href="#" class="room-poster"></a>
+                  <a href="#" class="room-mockup">
+                    <div>
+                      <p>
+                        <i class="fa-solid fa-heart"></i>
+                        <span>0</span>
+                      </p>
+                      <p>
+                        <i class="fa-solid fa-message"></i>
+                        <span>0</span>
+                      </p>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide room-slide-3">
+                  <a href="#" class="room-profile">
+                    <div></div>
+                    <p>우키키</p>
+                  </a>
+                  <a href="#" class="room-title">
+                    나만의 공간에 스며든 오싹+귀여운 멜로디, “The Cigarette Duet”
+                  </a>
+                  <a href="#" class="room-poster"></a>
+                  <a href="#" class="room-mockup">
+                    <div>
+                      <p>
+                        <i class="fa-solid fa-heart"></i>
+                        <span>0</span>
+                      </p>
+                      <p>
+                        <i class="fa-solid fa-message"></i>
+                        <span>1</span>
+                      </p>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide room-slide-1">
+                  <a href="#" class="room-profile">
+                    <div></div>
+                    <p>우키키</p>
+                  </a>
+                  <a href="#" class="room-title">
+                    내 방에 찾아온 따뜻한 베이커리 감성, “Baguette Baguette Baguette”
+                  </a>
+                  <a href="#" class="room-poster"></a>
+                  <a href="#" class="room-mockup">
+                    <div>
+                      <p>
+                        <i class="fa-solid fa-heart"></i>
+                        <span>0</span>
+                      </p>
+                      <p>
+                        <i class="fa-solid fa-message"></i>
+                        <span>0</span>
+                      </p>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide room-slide-2">
+                  <a href="#" class="room-profile">
+                    <div></div>
+                    <p>우키키</p>
+                  </a>
+                  <a href="#" class="room-title">
+                    집 안에 꾸미는 숲 속 캠핑 파티, Charile & Jonny
+                  </a>
+                  <a href="#" class="room-poster"></a>
+                  <a href="#" class="room-mockup">
+                    <div>
+                      <p>
+                        <i class="fa-solid fa-heart"></i>
+                        <span>0</span>
+                      </p>
+                      <p>
+                        <i class="fa-solid fa-message"></i>
+                        <span>0</span>
+                      </p>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide room-slide-3">
+                  <a href="#" class="room-profile">
+                    <div></div>
+                    <p>우키키</p>
+                  </a>
+                  <a href="#" class="room-title">
+                    나만의 공간에 스며든 오싹+귀여운 멜로디, “The Cigarette Duet”
+                  </a>
+                  <a href="#" class="room-poster"></a>
+                  <a href="#" class="room-mockup">
+                    <div>
+                      <p>
+                        <i class="fa-solid fa-heart"></i>
+                        <span>0</span>
+                      </p>
+                      <p>
+                        <i class="fa-solid fa-message"></i>
+                        <span>1</span>
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="view-more">
+          <a href="#" class="more">
+            <span>View more</span>
+          </a>
+        </div>
+      </section>
+      
+      <section class="new-item">
+        <div class="inner">
+          <div class="section-title">
+            <p>새로운 상품을 확인해보세요.</p>
+            <h2>NEW ITEM</h2>
+          </div>
+          <div class="item-section-swiper">
+            <div class="swiper item-swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide item">
+                  <a href="#" class="item-author">
+                    <span>CREATE by.<strong>MAXOO</strong></span>
+                  </a>
+                  <a href="#" class="item-img">
+                    <img src="images/poster1.jpg" alt="포스터 이미지">
+                  </a>
+                  <div class="item-text">
+                    <div class="cate">
+                      <span>Printing</span>
+                      <span>일러스트</span>
+                    </div>
+                    <a href="#" class="item-title">[72시간특가] PHYS.ED.DEPT® FOOTBALL ART GALLERY POSTER</a>
+                    <p>피지컬 에듀케이션 디파트먼트(PHYSICAL EDUCATION DEPARTMENT)는 사람과 문화로부터 얻은 경험의 축적을 다양한 라이프스타일 웨어와 아트워크로 표현하여 시대와 호흡하고 공감할 수 있는 커뮤니티를 만듭니다. 또한, 우리는 '먼데이 루틴(Monday Routine)'이라는 작은 움직임을 통해 멘털과 피지컬 건강을 위한 다양한 활동을 제안합니다.</p>
+                    <div class="price-wrap">
+                      <span class="percent">70%</span>
+                      <span class="price">32,700</span>
+                      <span class="origin">109,000</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide item">
+                  <a href="#" class="item-author">
+                    <span>CREATE by.<strong>10T</strong></span>
+                  </a>
+                  <a href="#" class="item-img">
+                    <img src="images/poster2.jpg" alt="포스터 이미지">
+                  </a>
+                  <div class="item-text">
+                    <div class="cate">
+                      <span>Digital</span>
+                      <span>디자인</span>
+                    </div>
+                    <a href="#" class="item-title">희미해진 기억속의 기둥 - MAX A4</a>
+                    <p>기억을 소재로 한 추상 작품입니다.</p>
+                    <div class="price">15,000</div>
+                  </div>
+                </div>
+                <div class="swiper-slide item">
+                  <a href="#" class="item-author">
+                    <span>CREATE by.<strong>design101</strong></span>
+                  </a>
+                  <a href="#" class="item-img">
+                    <img src="images/poster3.jpg" alt="포스터 이미지">
+                  </a>
+                  <div class="item-text">
+                    <div class="cate">
+                      <span>Digital</span>
+                      <span>디자인</span>
+                    </div>
+                    <a href="#" class="item-title">TOAST - MAX A4, DIGITAL EDITION, DESIGN DESSERT SERIES N0.6</a>
+                    <p>This is a dessert design series.</p>
+                    <div class="price">13,000</div>
+                  </div>
+                </div>
+                <div class="swiper-slide item">
+                  <a href="#" class="item-author">
+                    <span>CREATE by.<strong>design101</strong></span>
+                  </a>
+                  <a href="#" class="item-img">
+                    <img src="images/poster4.jpg" alt="포스터 이미지">
+                  </a>
+                  <div class="item-text">
+                    <div class="cate">
+                      <span>Digital</span>
+                      <span>디자인</span>
+                    </div>
+                    <a href="#" class="item-title">TARTE - MAX A4, DIGITAL EDITION, DESIGN DESSERT SERIES N0.5</a>
+                    <p>This is a dessert design series.</p>
+                    <div class="price">13,000</div>
+                  </div>
+                </div>
+                <div class="swiper-slide item">
+                  <a href="#" class="item-author">
+                    <span>CREATE by.<strong>design101</strong></span>
+                  </a>
+                  <a href="#" class="item-img">
+                    <img src="images/poster5.jpg" alt="포스터 이미지">
+                  </a>
+                  <div class="item-text">
+                    <div class="cate">
+                      <span>Digital</span>
+                      <span>디자인</span>
+                    </div>
+                    <a href="#" class="item-title">FLY - MAX A4, DIGITAL EDITION, DESIGN DESSERT SERIES N0.4</a>
+                    <p>This is a dessert design series.</p>
+                    <div class="price">13,000</div>
+                  </div>
+                </div>
+                <div class="swiper-slide item">
+                  <a href="#" class="item-author">
+                    <span>CREATE by.<strong>MAXOO</strong></span>
+                  </a>
+                  <a href="#" class="item-img">
+                    <img src="images/poster6.jpg" alt="포스터 이미지">
+                  </a>
+                  <div class="item-text">
+                    <div class="cate">
+                      <span>Digital</span>
+                      <span>일러스트</span>
+                    </div>
+                    <a href="#" class="item-title">찰리는 휴가중 - MAX A4</a>
+                    <p>풀 빌라에서 휴가 중인 찰리들이 뭘 하고 있을까요?</p>
+                    <div class="price">13,000</div>
+                  </div>
+                </div>
+                <div class="swiper-slide item">
+                  <a href="#" class="item-author">
+                    <span>CREATE by.<strong>MAXOO</strong></span>
+                  </a>
+                  <a href="#" class="item-img">
+                    <img src="images/poster7.jpg" alt="포스터 이미지">
+                  </a>
+                  <div class="item-text">
+                    <div class="cate">
+                      <span>Digital</span>
+                      <span>일러스트</span>
+                    </div>
+                    <a href="#" class="item-title">바나나 가이즈 - MAX A3</a>
+                    <p>찰리와 조니가 바나나 옷을 입고 촬영했다고 합니다!</p>
+                    <div class="price">18,000</div>
+                  </div>
+                </div>
+                <div class="swiper-slide item">
+                  <a href="#" class="item-author">
+                    <span>CREATE by.<strong>MAXOO</strong></span>
+                  </a>
+                  <a href="#" class="item-img">
+                    <img src="images/poster8.jpg" alt="포스터 이미지">
+                  </a>
+                  <div class="item-text">
+                    <div class="cate">
+                      <span>Digital</span>
+                      <span>일러스트</span>
+                    </div>
+                    <a href="#" class="item-title">네가 있어서 좋아 - MAX A3</a>
+                    <p>사이좋은 찰리와 레몬의 모습을 담았습니다</p>
+                    <div class="price">18,000</div>
+                  </div>
+                </div>
+                <div class="swiper-slide item">
+                  <a href="#" class="item-author">
+                    <span>CREATE by.<strong>10T</strong></span>
+                  </a>
+                  <a href="#" class="item-img">
+                    <img src="images/poster9.jpg" alt="포스터 이미지">
+                  </a>
+                  <div class="item-text">
+                    <div class="cate">
+                      <span>Printing</span>
+                      <span>디자인</span>
+                    </div>
+                    <a href="#" class="item-title">BRAIN STORM - A3 ONLY</a>
+                    <p> </p>
+                    <div class="price">14,000</div>
+                  </div>
+                </div>
+                <div class="swiper-slide item">
+                  <a href="#" class="item-author">
+                    <span>CREATE by.<strong>design101</strong></span>
+                  </a>
+                  <a href="#" class="item-img">
+                    <img src="images/poster10.jpg" alt="포스터 이미지">
+                  </a>
+                  <div class="item-text">
+                    <div class="cate">
+                      <span>Printing</span>
+                      <span>디자인</span>
+                    </div>
+                    <a href="#" class="item-title">FALL - A4 ONLY, DESIGN DESSERT SERIES N0.3</a>
+                    <p>This is a dessert design series.</p>
+                    <div class="price">7,000</div>
+                  </div>
+                </div>
+                <div class="swiper-slide item">
+                  <a href="#" class="item-author">
+                    <span>CREATE by.<strong>design101</strong></span>
+                  </a>
+                  <a href="#" class="item-img">
+                    <img src="images/poster11.jpg" alt="포스터 이미지">
+                  </a>
+                  <div class="item-text">
+                    <div class="cate">
+                      <span>Printing</span>
+                      <span>디자인</span>
+                    </div>
+                    <a href="#" class="item-title">BATTLE - A4 ONLY, DESIGN DESSERT SERIES N0.2</a>
+                    <p>This is a dessert design series.</p>
+                    <div class="price">7,000</div>
+                  </div>
+                </div>
+                <div class="swiper-slide item">
+                  <a href="#" class="item-author">
+                    <span>CREATE by.<strong>design101</strong></span>
+                  </a>
+                  <a href="#" class="item-img">
+                    <img src="images/poster12.jpg" alt="포스터 이미지">
+                  </a>
+                  <div class="item-text">
+                    <div class="cate">
+                      <span>Printing</span>
+                      <span>디자인</span>
+                    </div>
+                    <a href="#" class="item-title">BAGUETTE - A4 ONLY, DESIGN DESSERT SERIES N0.1</a>
+                    <p>This is a dessert design series.</p>
+                    <div class="price">7,000</div>
+                  </div>
+                </div>
+                <div class="swiper-slide item">
+                  <a href="#" class="item-author">
+                    <span>CREATE by.<strong>MAXOO</strong></span>
+                  </a>
+                  <a href="#" class="item-img">
+                    <img src="images/poster13.jpg" alt="포스터 이미지">
+                  </a>
+                  <div class="item-text">
+                    <div class="cate">
+                      <span>Printing</span>
+                      <span>일러스트</span>
+                    </div>
+                    <a href="#" class="item-title">DREAM IN MY ROOM -A3 ONLY</a>
+                    <p>This is a work that shows Johnny's innocent side as a child. Preserve my precious lost childhood by looking at young Johnny.</p>
+                    <div class="price">14,000</div>
+                  </div>
+                </div>
+                <div class="swiper-slide item">
+                  <a href="#" class="item-author">
+                    <span>CREATE by.<strong>MAXOO</strong></span>
+                  </a>
+                  <a href="#" class="item-img">
+                    <img src="images/poster14.jpg" alt="포스터 이미지">
+                  </a>
+                  <div class="item-text">
+                    <div class="cate">
+                      <span>Printing</span>
+                      <span>일러스트</span>
+                    </div>
+                    <a href="#" class="item-title">SING A SONG - CHARLIE AND JONNY, CAMPING</a>
+                    <p>It looks like camping in a quiet countryside. It contains the peaceful images of Charlie and Johnny enjoying camping.</p>
+                    <div class="price">7,000</div>
+                  </div>
+                </div>
+                <div class="swiper-slide item">
+                  <a href="#" class="item-author">
+                    <span>CREATE by.<strong>MAXOO</strong></span>
+                  </a>
+                  <a href="#" class="item-img">
+                    <img src="images/poster15.jpg" alt="포스터 이미지">
+                  </a>
+                  <div class="item-text">
+                    <div class="cate">
+                      <span>Printing</span>
+                      <span>일러스트</span>
+                    </div>
+                    <a href="#" class="item-title">GREEN BEANIE BOY - THE CIGARETTE DUET, SCARY BUT CUTE</a>
+                    <p>This is a drawing of my main character, Johnny. Meet Johnny's cute appearance drawn using a unique drawing technique.</p>
+                    <div class="price">7,000</div>
+                  </div>
+                </div>
+                <div class="swiper-slide item">
+                  <a href="#" class="item-author">
+                    <span>CREATE by.<strong>MAXOO</strong></span>
+                  </a>
+                  <a href="#" class="item-img">
+                    <img src="images/poster16.jpg" alt="포스터 이미지">
+                  </a>
+                  <div class="item-text">
+                    <div class="cate">
+                      <span>Printing</span>
+                      <span>일러스트</span>
+                    </div>
+                    <a href="#" class="item-title">돈많고싶어</a>
+                    <p>돈많고싶어 일러스트입니다. 배경색 두가지입니다.</p>
+                    <div class="price-wrap">
+                      <span class="discount">1,000↓</span>
+                      <span class="price">11,000</span>
+                      <span class="origin">12,000</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="view-more">
+          <a href="#" class="more">
+            <span>View more</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="event">
+        <div class="inner">
+          <div class="pagination">
+            <a href="#" class="selected">
+              <span>1.</span>
+              <span>DOTORI POSTER</span>
+              <span>오픈 기념 이벤트</span>
+            </a>
+            <a href="#">
+              <span>2.</span>
+              <span>첫 구매 고객 프리미엄</span>
+              <span>DOTORI Kit 증정</span>
+            </a>
+            <a href="#">
+              <span>3.</span>
+              <span>AR ROOM 유저 가이드</span>
+              <span>적용해보기</span>
+            </a>
+          </div>
+          <div class="swiper event-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="images/event-1.png" alt="슬라이드 이미지 1" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/event-2.png" alt="슬라이드 이미지 2" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/event-3.png" alt="슬라이드 이미지 3" />
+              </div>
+            </div>
+            <div class="event-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="best">
+        <div class="inner">
+          <div class="best-left">
+            <div class="section-title">
+              <p>가장 인기있는 상품을 확인해보세요.</p>
+              <h2>BEST SELLER</h2>
+            </div>
+            <img src="images/best-left-img.svg" alt="캐릭터 이미지">
+          </div>
+          <div class="best-right">
+            <div class="items">
+              <div class="items-left">
+                <div class="item">
+                  <a href="#" class="item-author">
+                    <span>CREATE by.<strong>MAXOO</strong></span>
+                  </a>
+                  <a href="#" class="item-img">
+                    <img src="images/poster1.jpg" alt="포스터 이미지">
+                  </a>
+                  <div class="item-text">
+                    <div class="cate">
+                      <span>Printing</span>
+                      <span>일러스트</span>
+                    </div>
+                    <a href="#" class="item-title">[72시간특가] PHYS.ED.DEPT® FOOTBALL ART GALLERY POSTER</a>
+                    <div class="price-wrap">
+                      <span class="percent">70%</span>
+                      <span class="price">32,700</span>
+                      <span class="origin">109,000</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <a href="#" class="item-author">
+                    <span>CREATE by.<strong>design101</strong></span>
+                  </a>
+                  <a href="#" class="item-img">
+                    <img src="images/poster3.jpg" alt="포스터 이미지">
+                  </a>
+                  <div class="item-text">
+                    <div class="cate">
+                      <span>Digital</span>
+                      <span>디자인</span>
+                    </div>
+                    <a href="#" class="item-title">TOAST - MAX A4, DIGITAL EDITION, DESIGN DESSERT SERIES N0.6</a>
+                    <div class="price">13,000</div>
+                  </div>
+                </div>
+                <div class="item">
+                  <a href="#" class="item-author">
+                    <span>CREATE by.<strong>design101</strong></span>
+                  </a>
+                  <a href="#" class="item-img">
+                    <img src="images/poster5.jpg" alt="포스터 이미지">
+                  </a>
+                  <div class="item-text">
+                    <div class="cate">
+                      <span>Digital</span>
+                      <span>디자인</span>
+                    </div>
+                    <a href="#" class="item-title">FLY - MAX A4, DIGITAL EDITION, DESIGN DESSERT SERIES N0.4</a>
+                    <div class="price">13,000</div>
+                  </div>
+                </div>
+              </div>
+              <div class="items-right">
+                <div class="item">
+                  <a href="#" class="item-author">
+                    <span>CREATE by.<strong>10T</strong></span>
+                  </a>
+                  <a href="#" class="item-img">
+                    <img src="images/poster2.jpg" alt="포스터 이미지">
+                  </a>
+                  <div class="item-text">
+                    <div class="cate">
+                      <span>Digital</span>
+                      <span>디자인</span>
+                    </div>
+                    <a href="#" class="item-title">희미해진 기억속의 기둥 - MAX A4</a>
+                    <div class="price">15,000</div>
+                  </div>
+                </div>
+                <div class="item">
+                  <a href="#" class="item-author">
+                    <span>CREATE by.<strong>design101</strong></span>
+                  </a>
+                  <a href="#" class="item-img">
+                    <img src="images/poster4.jpg" alt="포스터 이미지">
+                  </a>
+                  <div class="item-text">
+                    <div class="cate">
+                      <span>Digital</span>
+                      <span>디자인</span>
+                    </div>
+                    <a href="#" class="item-title">TARTE - MAX A4, DIGITAL EDITION, DESIGN DESSERT SERIES N0.5</a>
+                    <div class="price">13,000</div>
+                  </div>
+                </div>
+                <div class="item">
+                  <a href="#" class="item-author">
+                    <span>CREATE by.<strong>MAXOO</strong></span>
+                  </a>
+                  <a href="#" class="item-img">
+                    <img src="images/poster6.jpg" alt="포스터 이미지">
+                  </a>
+                  <div class="item-text">
+                    <div class="cate">
+                      <span>Digital</span>
+                      <span>일러스트</span>
+                    </div>
+                    <a href="#" class="item-title">찰리는 휴가중 - MAX A4</a>
+                    <div class="price">13,000</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="view-more">
+              <a href="#" class="more">
+                <span>View more</span>
+              </a>
+              <img src="images/best-more-character.svg" alt="캐릭터 이미지">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="behind">
+        <div class="inner">
+          <h2>
+            도토리 포스터는<br>
+            또 무얼하고 있을까요?<br>
+            그 비하인드 스토리를 확인해보세요.
+          </h2>
+          <div class="tape">
+            <div class="tape-text-wrap">
+              <div class="tape-text">
+                <p>LISTEN TO OUR STORY!</p>
+                <p>LISTEN TO OUR STORY!</p>
+                <p>LISTEN TO OUR STORY!</p>
+                <p>LISTEN TO OUR STORY!</p>
+              </div>
+            </div>
+          </div>
+          <div class="behinds">
+            <ul>
+              <li>
+                <p class="cate">지금우리</p>
+                <div>
+                  <a href="#" class="behind-title">내 마음속의 고양이 &lt;고양이를 그린 화가 루이스 웨인展&gt;</a>
+                  <div class="tags">
+                    <a href="#">#고양이를그린화가</a>
+                    <a href="#">#루이스웨인</a>
+                    <a href="#">#영국국민화가</a>
+                    <a href="#">#아내와피터</a>
+                    <a href="#">#바로나자신입니다</a>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <p class="cate">후일담</p>
+                <div>
+                  <a href="#" class="behind-title">과거와 현재가 만나는 구찌 가든</a>
+                  <div class="tags">
+                    <a href="#">#구찌</a>
+                    <a href="#">#가든</a>
+                    <a href="#">#아키타이프</a>
+                    <a href="#">#절대적전형</a>
+                    <a href="#">#무료</a>
+                    <a href="#">#워크인</a>
+                    <a href="#">#컨트롤룸</a>
+                    <a href="#">#구찌블룸</a>
+                    <a href="#">#디오니서스댄스</a>
+                    <a href="#">#거리로나온구찌</a>
+                    <a href="#">#크루즈컬렉션검애즈유아</a>
+                    <a href="#">#반항적인몽상가들</a>
+                    <a href="#">#크루즈컬렉션구찌고딕</a>
+                    <a href="#">#가을겨울컬렉션구찌콜렉터즈</a>
+                    <a href="#">....</a>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <p class="cate">지금우리</p>
+                <div>
+                  <a href="#" class="behind-title">콘텐츠 마케터가 다녀온 ‘더 퍼스트 슬램덩크 팝업스토어’</a>
+                  <div class="tags">
+                    <a href="#">#더현대</a>
+                    <a href="#">#슬램덩크</a>
+                    <a href="#">#향수</a>
+                    <a href="#">#강백호</a>
+                    <a href="#">#굿즈</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="behind-img">
+              <img src="images/behind-poster1.jpg" alt="포스터 이미지">
+              <img src="images/behind-poster2.jpg" alt="포스터 이미지">
+              <img src="images/behind-poster3.jpg" alt="포스터 이미지" class="active">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="banner">
+        <div class="inner">
+          <a href="#" class="banner">
+            <img src="images/banner-bg.png" alt="배너 배경사진">
+            <div class="banner-text">
+              <p>도토리 포스터를 소개합니다.</p>
+              <h2>
+                BRAND<br>
+                DOTORI POSTER
+              </h2>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <div class="go-top"></div>
+    </main>
+
+    <footer>
+      <div class="inner">
+        <div class="contact">
+          <a href="#">
+            <img src="images/footer-logo.svg" height="32" alt="FOOTER 로고">
+            <p>카카오톡 상담</p>
+          </a>
+          <ul>
+            <li><a href="#">공지사항 </a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="text">
+          <ul>
+            <li><a href="#">도토리 포스터 소개</a></li>
+            <li><a href="#">작가신청</a></li>
+            <li><a href="#">제휴문의</a></li>
+            <li><a href="#">이용약관</a></li>
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">저작권 안내</a></li>
+          </ul>
+          <div>
+            <div class="info">
+              <div>
+                <span>이팍</span>
+                <span>대표 이성근</span>
+                <span>주소 부산광역시 기장군 기장읍 대변로 43, 201동 904호(웨이브리즈)</span>
+              </div>
+              <div>
+                <span>사업자등록번호 154-17-10702</span>
+                <span>통신판매업 제2022-부산기장-0726호&nbsp;
+                  <a href="#">사업자정보확인</a>
+                </span>
+              </div>
+              <div>
+                <span>TEL 010-4229-9917</span>
+                <span>EMAIL dotori_cs@dotoriposter.com</span>
+                <span>개인정보관리책임자 이성근</span>
+                <span>호스팅서비스 카페24</span>
+              </div>
+            </div>
+            <div class="notice">
+              <p>이팍은 고객님의 현금결제 금액에 대해 토스페이먼츠와 계약을 체결하여 안전거래를 보장하고 있습니다.&nbsp;
+                <a href="#">서비스가입사실확인</a>
+              </p>
+              <p>이팍은 통신판매중개자로서 중개하는 거래에 대하여 책임을 부담하지 않습니다. 단, 이팍이 판매자로 등록/판매한 상품은 판매자로서 책임을 부담합니다.</p>
+              <p>도토리포스터 사이트의 상품/판매자/쇼핑정보, 컨텐츠, UI 등에 대한 무단 복제, 전송, 배포, 스크래핑 등의 행위는<br>
+                저작권법, 콘텐츠사업 진흥법 등에 의하여 엄격히 금지됩니다.&nbsp;
+                <a href="#">콘텐츠 산업 진흥법에 따른 표시</a>
+              </p>
+            </div>
+            <div class="copy">ⓒ 2023 이팍</div>
+          </div>
+        </div>
+        <div class="sns">
+          <ul>
+            <li><a href="#"><img src="images/footer-sns-1.svg" height="20" alt="SNS"></a></li>
+            <li><a href="#"><img src="images/footer-sns-2.svg" height="20" alt="SNS"></a></li>
+            <li><a href="#"><img src="images/footer-sns-3.svg" height="18" alt="SNS"></a></li>
+            <li><a href="#"><img src="images/footer-sns-4.svg" height="20" alt="SNS"></a></li>
+            <li><a href="#"><img src="images/footer-sns-5.svg" height="20" alt="SNS"></a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    let roomSwiper = new Swiper(".room-swiper", {
+      slidesPerView: 3,
+      spaceBetween: 120,
+      loop: true,
+      on: {
+        sliderMove(swiper, e) {
+          $(".custom-cursor").css({
+            "transform": `translate(${e.clientX}px, ${e.clientY}px)`
+          })
+        }
+      }
+    });
+
+    let itemSwiper = new Swiper(".item-swiper", {
+      slidesPerView: 3,
+      spaceBetween: 120,
+      loop: true,
+      on: {
+        sliderMove(swiper, e) {
+          $(".custom-cursor").css({
+            "transform": `translate(${e.clientX}px, ${e.clientY}px)`
+          })
+        }
+      }
+    });
+
+    let eventSwiper = new Swiper(".event-swiper", {
+      effect: "fade",
+      pagination: {
+        el: ".event-pagination",
+        clickable: true,
+      },
+      on: {
+        slideChange: function() {
+          updateItemPagination(this.realIndex);
+        }
+      },
+    });
+
+
+    let bannerSwiper = new Swiper(".banner-swiper", {
+      spaceBetween: 30,
+      effect: "fade",
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+</body>
+</html>
