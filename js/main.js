@@ -12,6 +12,13 @@ $(function () {
   let footerTop = $("footer").offset().top;
   let windowHeight = $(window).height();
 
+  $(window).on("load", function () {
+    roomSwiperTop = $(".room-swiper").offset().top;
+    eventSwiperTop = $(".event-swiper").offset().top;
+    behindUlTop = $("section.behind .behinds").offset().top;
+    footerTop = $("footer").offset().top;
+  })
+
   $(window).scroll(function () {
     let curScroll = $(window).scrollTop();
     let windowBottom = curScroll + windowHeight;
