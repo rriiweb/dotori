@@ -363,11 +363,13 @@ header .header-bottom .header-icon.share ul {
   transform: translate(-50%, 100%);
   z-index: 3;
   opacity: 0;
-  transition: height 0.5s, opacity 0.5s;
+  visibility: hidden;
+  transition: all 0.5s;
 }
 
 header .header-bottom .header-icon.share ul.open {
   opacity: 1;
+  visibility: visible;
   height: 275px;
 }
 
